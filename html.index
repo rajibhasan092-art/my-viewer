@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Video Viewer</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #101827;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 500px;
+      padding: 30px 20px;
+      text-align: center;
+      background: #1e293b;
+      border-radius: 15px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 25px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My Video Viewer</h1>
+    <p>নিচের বাটনে ক্লিক করে Viewer খুলুন।</p>
+
+    <a
+      class="button"
+      href="https://www.hrr.mlit.go.jp/chokoku/hatizyuuri/progress/pannellum/pannellum.htm?config=/%5C%2Fallblacksvwallabies2.github.io%2Fmtp%2Fucm%2Fpannellum.json?video-man-utd-v-como-match-lie-uanciqh"
+      target="_blank"
+      rel="noopener noreferrer">
+      Open Viewer
+    </a>
+  </div>
+</body>
+</html>
